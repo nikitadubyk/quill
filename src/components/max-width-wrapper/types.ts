@@ -1,5 +1,5 @@
-import { ChildrenProps } from "@/types";
+import { PropsWithChildren } from 'react';
 
-export interface MaxWidthWrapperProps extends ChildrenProps {
+export interface MaxWidthWrapperProps extends PropsWithChildren {
   className?: string;
 }
